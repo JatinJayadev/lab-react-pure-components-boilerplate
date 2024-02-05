@@ -20,7 +20,7 @@ export default class myPureComponent extends PureComponent {
 
     render() {
         return (
-            <div>
+            <div className='Pure-div'>
                 <h1>Pure Components</h1>
                 <h3>{this.state.count}</h3>
                 <button onClick={this.handleToggle}>Toggle</button>
