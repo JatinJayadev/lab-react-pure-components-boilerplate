@@ -12,6 +12,7 @@ export default class RegularComponents extends Component {
     handleClick = () => {
         if (this.state.toggle === true) {
             this.setState({ ...this.state, count: this.state.count + 1 })
+            console.log("This is Regular Component")
         }
     }
     handleToggle = () => {

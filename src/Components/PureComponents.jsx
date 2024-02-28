@@ -12,6 +12,7 @@ export default class myPureComponent extends PureComponent {
     handleClick = () => {
         if (this.state.toggle === true) {
             this.setState({ ...this.state, count: this.state.count + 1 })
+            console.log("This is Pure Component")
         }
     }
     handleToggle = () => {
@@ -19,6 +20,7 @@ export default class myPureComponent extends PureComponent {
     }
 
     render() {
+
         return (
             <div className='Pure-div'>
                 <h1>Pure Components</h1>
